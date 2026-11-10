@@ -1,6 +1,6 @@
 # Awesome-Business-Card-Scanning-OCR
 
-# Top Business Card Scanning & OCR Ecosystem
+## Top Business Card Scanning & OCR Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Contact Digitization, OCR Extraction & CRM-Ready Lead Capture*  
