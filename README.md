@@ -1,29 +1,44 @@
-# Awesome-Business-Card-Scanning-OCR
+# Awesome Business Card Scanning & OCR [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![GitHub Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Business-Card-Scanning-OCR?style=social&color=white)](https://github.com/ishandutta2007/Awesome-Business-Card-Scanning-OCR/stargazers) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-## Top Business Card Scanning & OCR Ecosystem
+> A curated directory of the best **Business Card Scanning**, **Mobile OCR**, **Contact Digitization**, and **Lead Capture** SaaS platforms and open-source GitHub projects.
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Contact Digitization, OCR Extraction & CRM-Ready Lead Capture*  
-**Last updated: March 2026**
+Physical business cards remain one of the most reliable ways to connect at conferences, trade shows, and sales meetings. This repository serves as an authoritative index of **enterprise SaaS platforms**, **cloud APIs**, **mobile OCR apps**, and **self-hosted open-source pipelines** that convert paper cards into clean, structured digital contacts synced to CRMs like Salesforce, HubSpot, and Zoho.
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Business Card Scanning & OCR**. These tools help professionals and sales teams convert physical business cards into structured digital contacts—covering mobile scanning apps, AI-powered field mapping, CRM synchronization, and self-hosted OCR pipelines.
+---
 
-**Examples** include Zoho Card Scanner, CamCard, ABBYY Business Card Reader, ScanBizCards, HubSpot Business Card Scanner, Haystack, Covve, Sansan, Popl, and Evernote Scannable (the category leaders).
+## Quick Navigation
 
-**Open-source emphasis**: This section highlights every major active project for self-hosted business card OCR, LLM-assisted extraction, and privacy-first contact scanning—ideal for developers, privacy-conscious users, and teams seeking transparent alternatives to proprietary scanning apps.
-
-Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
 - [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
+- [Key Features to Look For](#key-features-to-look-for-in-card-scanners)
+- [SaaS / Hosted Platforms](#saashosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
+- [Mobile SDKs & OCR Engines](#mobile-sdks--core-ocr-engines)
+- [Architecture & Custom Pipeline Guide](#custom-card-scanner-architecture)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
+---
+
 ## Sector Overview & Market Dynamics
 
-The global business card scanning & OCR market is estimated at ~$3.9B (projected to reach ~$19.9B by the mid-2030s at ~17–20% CAGR), while the pure-play digital business card market represents an adjacent ~$240M–$440M sector. The industry is **moderately fragmented**: while foundational CRM giants (HubSpot, Zoho) and established regional platforms (Sansan in Japan, INTSIG/CamCard in Asia-Pacific) capture heavy enterprise market share, the broader market remains fragmented across agile mobile-first startups, NFC hardware vendors, and self-hosted open-source OCR pipelines catering to distinct privacy, trade-show, and CRM integration niches.
+The global **business card scanning & OCR market** is estimated at **~$3.9B** (forecasted to reach **~$19.9B by the mid-2030s** expanding at a ~17%–20% CAGR), while the pure-play **digital business card & NFC networking** space represents an adjacent **~$240M–$440M** market.
+
+The market displays **moderate fragmentation**:
+- **Enterprise & CRM Dominance**: Full-suite CRM ecosystems ([HubSpot](https://www.hubspot.com/), [Zoho](https://www.zoho.com/crm/)) offer built-in card recognition to reduce data-entry friction and retain pipeline data.
+- **Regional Specialists**: Providers like [Sansan](https://jp.sansan.com/) (dominating the corporate Japanese enterprise market with hybrid human-in-the-loop verification) and [INTSIG / CamCard](https://www.camcard.com/) lead in Asian markets and cross-border teams.
+- **Niche Innovation**: Mobile-first startups ([Popl](https://popl.co/), [Covve](https://covve.com/), [Haystack](https://thehaystackapp.com/)) target event networking, NFC badges, and lightweight personal relationship management.
+- **Open-Source & Privacy-First**: On-device machine learning (Apple Vision, Google ML Kit, Tesseract, and multimodal LLMs) empowers privacy-sensitive users and engineers to build custom self-hosted pipelines without third-party data tracking.
+
+---
+
+## Key Features to Look For in Card Scanners
+
+When evaluating a business card scanner or OCR solution:
+1. **Multilingual OCR & Font Handling**: Accurately recognizes diverse scripts, vertical layouts (CJK languages), and non-standard stylized fonts.
+2. **Entity Extraction (NER)**: Distinguishes names, job titles, companies, physical addresses, websites, phone numbers, and social handles (LinkedIn, X/Twitter).
+3. **CRM Integration & Two-Way Sync**: Native connectors to HubSpot, Salesforce, Zoho, Microsoft Dynamics, Pipedrive, and Google Contacts.
+4. **Data Privacy & GDPR/CCPA Compliance**: On-device OCR processing vs. cloud server storage guarantees.
+5. **Batch Scanning & Conference Badges**: Rapid capture for trade-show booths and high-volume networking.
 
 ## SaaS/Hosted Platforms
 
@@ -89,7 +104,40 @@ Curated list of open-source business card scanning repositories, native mobile O
 - **[Google ML Kit Text Recognition](https://developers.google.com/ml-kit/vision/text-recognition)** — On-device OCR SDK for Android/iOS with zero cloud latency and privacy guarantees.
 - **[Apple Vision Framework](https://developer.apple.com/documentation/vision)** — Native high-performance iOS/macOS text and document recognition.
 
-**Frameworks for building custom systems**: Combine **Tesseract** or **EasyOCR** for text extraction, **Meishi** or **bizcard-ai-scanner** for LLM-assisted field mapping and review UI, and **Google Contacts API** or **Supabase** for contact storage—or wrap **ML Kit** in a Flutter app for fully on-device, privacy-first scanning.
+---
+
+## Custom Card Scanner Architecture
+
+For developers building an end-to-end self-hosted business card scanning pipeline:
+
+```
+[Camera / Image Upload]
+         │
+         ▼
+[Image Preprocessing (OpenCV)]
+  - Auto-cropping & deskewing
+  - Contrast enhancement / thresholding
+         │
+         ▼
+[Text Extraction (OCR Engine)]
+  - On-Device: Google ML Kit / Apple Vision / Tesseract (tess-two)
+  - Backend Server: EasyOCR / Tesseract 5 / PaddleOCR
+         │
+         ▼
+[Named Entity Recognition & Structuring (NER / LLM)]
+  - Rule-based regex (phone, email, URL)
+  - spaCy NER or multimodal LLM (Gemini Flash, Claude Haiku, GPT-4o-mini)
+  - JSON schema enforcement (Name, Title, Company, Phone, Email, Address)
+         │
+         ▼
+[Human Review & Verification UI (React / Streamlit / Flutter)]
+         │
+         ▼
+[Export & Integration]
+  - vCard (.vcf) / CSV / Excel download
+  - CRM Sync (HubSpot API, Salesforce API, Zoho CRM API)
+  - Contact Sync (Google Contacts API, Apple Contacts)
+```
 
 ## How to Contribute
 
