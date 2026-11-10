@@ -15,10 +15,15 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saas-hosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
+
+## Sector Overview & Market Dynamics
+
+The global business card scanning & OCR market is estimated at ~$3.9B (projected to reach ~$19.9B by the mid-2030s at ~17–20% CAGR), while the pure-play digital business card market represents an adjacent ~$240M–$440M sector. The industry is **moderately fragmented**: while foundational CRM giants (HubSpot, Zoho) and established regional platforms (Sansan in Japan, INTSIG/CamCard in Asia-Pacific) capture heavy enterprise market share, the broader market remains fragmented across agile mobile-first startups, NFC hardware vendors, and self-hosted open-source OCR pipelines catering to distinct privacy, trade-show, and CRM integration niches.
 
 ## SaaS/Hosted Platforms
 
