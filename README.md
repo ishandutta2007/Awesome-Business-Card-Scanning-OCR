@@ -4,7 +4,7 @@
 
 # 📇 Awesome Business Card Scanning & OCR 🔍
 
-<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![GitHub Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Business-Card-Scanning-OCR?style=social&color=white)](https://github.com/ishandutta2007/Awesome-Business-Card-Scanning-OCR/stargazers) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![GitHub_Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Business-Card-Scanning-OCR?style=social&color=white)](https://github.com/ishandutta2007/Awesome-Business-Card-Scanning-OCR/stargazers) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 <p align="center">
   <strong>🚀 A curated directory of the best Business Card Scanning, Mobile OCR, Contact Digitization, and Lead Capture SaaS platforms and open-source GitHub projects. 🌐</strong>
@@ -75,50 +75,50 @@ When evaluating a business card scanner or OCR solution:
 
 ## 💻 Open-Source GitHub Projects
 
-Curated list of open-source business card scanning repositories, native mobile OCR applications, and developer toolkits—sorted by GitHub stars ⭐:
+Curated list of open-source business card scanning repositories, native mobile OCR applications, and developer toolkits—sorted by GitHub_Stars ⭐:
 
-- **[Business Card Reader (BCR)](https://github.com/adityamehra/Business-Card-Reader-BCR-)** [![GitHub stars](https://img.shields.io/github/stars/adityamehra/Business-Card-Reader-BCR-?style=social&color=white)](https://github.com/adityamehra/Business-Card-Reader-BCR-/stargazers) 🤖  
+- **[Business Card Reader (BCR)](https://github.com/adityamehra/Business-Card-Reader-BCR-)** [![GitHub_Stars](https://img.shields.io/github/stars/adityamehra/Business-Card-Reader-BCR-?style=social&color=white)](https://github.com/adityamehra/Business-Card-Reader-BCR-/stargazers) 🤖  
   Android native application to extract contact names, emails, and phone numbers from business cards using `tess-two` (Android Tesseract OCR engine) and camera capture.
 
-- **[CardScan](https://github.com/danauclair/CardScan)** [![GitHub stars](https://img.shields.io/github/stars/danauclair/CardScan?style=social&color=white)](https://github.com/danauclair/CardScan/stargazers) 📱  
+- **[CardScan](https://github.com/danauclair/CardScan)** [![GitHub_Stars](https://img.shields.io/github/stars/danauclair/CardScan?style=social&color=white)](https://github.com/danauclair/CardScan/stargazers) 📱  
   iOS OCR demonstration application using Tesseract OCR to scan business cards and automatically create iOS contacts.
 
-- **[Javascript-BCR-Library](https://github.com/syneo-tools-gmbh/Javascript-BCR-Library)** [![GitHub stars](https://img.shields.io/github/stars/syneo-tools-gmbh/Javascript-BCR-Library?style=social&color=white)](https://github.com/syneo-tools-gmbh/Javascript-BCR-Library/stargazers) 🌐  
+- **[Javascript-BCR-Library](https://github.com/syneo-tools-gmbh/Javascript-BCR-Library)** [![GitHub_Stars](https://img.shields.io/github/stars/syneo-tools-gmbh/Javascript-BCR-Library?style=social&color=white)](https://github.com/syneo-tools-gmbh/Javascript-BCR-Library/stargazers) 🌐  
   Client-side JavaScript and web-based offline business card reader library with structured contact field extraction.
 
-- **[card-reader](https://github.com/gpadmaku1/card-reader)** [![GitHub stars](https://img.shields.io/github/stars/gpadmaku1/card-reader?style=social&color=white)](https://github.com/gpadmaku1/card-reader/stargazers) 📇  
+- **[card-reader](https://github.com/gpadmaku1/card-reader)** [![GitHub_Stars](https://img.shields.io/github/stars/gpadmaku1/card-reader?style=social&color=white)](https://github.com/gpadmaku1/card-reader/stargazers) 📇  
   Card reader Android application that scans business cards with OCR and directly syncs and saves details into Google Contacts.
 
-- **[Business-Card-Scanner](https://github.com/dhruv2601/Business-Card-Scanner)** [![GitHub stars](https://img.shields.io/github/stars/dhruv2601/Business-Card-Scanner?style=social&color=white)](https://github.com/dhruv2601/Business-Card-Scanner/stargazers) ⚡  
+- **[Business-Card-Scanner](https://github.com/dhruv2601/Business-Card-Scanner)** [![GitHub_Stars](https://img.shields.io/github/stars/dhruv2601/Business-Card-Scanner?style=social&color=white)](https://github.com/dhruv2601/Business-Card-Scanner/stargazers) ⚡  
   Optical Character Recognition engine to scan business cards locally and offline on Android devices.
 
-- **[business-card-scanner](https://github.com/stpabhi/business-card-scanner)** [![GitHub stars](https://img.shields.io/github/stars/stpabhi/business-card-scanner?style=social&color=white)](https://github.com/stpabhi/business-card-scanner/stargazers) 🍎  
+- **[business-card-scanner](https://github.com/stpabhi/business-card-scanner)** [![GitHub_Stars](https://img.shields.io/github/stars/stpabhi/business-card-scanner?style=social&color=white)](https://github.com/stpabhi/business-card-scanner/stargazers) 🍎  
   Native iOS business card reader app leveraging Tesseract OCR for automated contact detail extraction.
 
-- **[Business-Card-Reader-App](https://github.com/ierolsen/Business-Card-Reader-App)** [![GitHub stars](https://img.shields.io/github/stars/ierolsen/Business-Card-Reader-App?style=social&color=white)](https://github.com/ierolsen/Business-Card-Reader-App/stargazers) 🔍  
+- **[Business-Card-Reader-App](https://github.com/ierolsen/Business-Card-Reader-App)** [![GitHub_Stars](https://img.shields.io/github/stars/ierolsen/Business-Card-Reader-App?style=social&color=white)](https://github.com/ierolsen/Business-Card-Reader-App/stargazers) 🔍  
   End-to-end OCR and entity extraction project parsing contact entities from scanned business card images.
 
-- **[Text-Extraction-From-Business-Card-Using-OCR](https://github.com/tulasinnd/Text-Extraction-From-Business-Card-Using-OCR)** [![GitHub stars](https://img.shields.io/github/stars/tulasinnd/Text-Extraction-From-Business-Card-Using-OCR?style=social&color=white)](https://github.com/tulasinnd/Text-Extraction-From-Business-Card-Using-OCR/stargazers) 🐍  
+- **[Text-Extraction-From-Business-Card-Using-OCR](https://github.com/tulasinnd/Text-Extraction-From-Business-Card-Using-OCR)** [![GitHub_Stars](https://img.shields.io/github/stars/tulasinnd/Text-Extraction-From-Business-Card-Using-OCR?style=social&color=white)](https://github.com/tulasinnd/Text-Extraction-From-Business-Card-Using-OCR/stargazers) 🐍  
   Python and Streamlit web application using EasyOCR to extract names, emails, phones, pin codes, addresses, and URLs from business cards.
 
-- **[BizCardX](https://github.com/IamJafar/BizCardX-Extracting_Business_Card_Data_with_OCR)** [![GitHub stars](https://img.shields.io/github/stars/IamJafar/BizCardX-Extracting_Business_Card_Data_with_OCR?style=social&color=white)](https://github.com/IamJafar/BizCardX-Extracting_Business_Card_Data_with_OCR/stargazers) 🗄️  
+- **[BizCardX](https://github.com/IamJafar/BizCardX-Extracting_Business_Card_Data_with_OCR)** [![GitHub_Stars](https://img.shields.io/github/stars/IamJafar/BizCardX-Extracting_Business_Card_Data_with_OCR?style=social&color=white)](https://github.com/IamJafar/BizCardX-Extracting_Business_Card_Data_with_OCR/stargazers) 🗄️  
   Interactive Streamlit application using EasyOCR and SQL database integration for structured business card digitization and CRUD contact management.
 
-- **[BusinessCard-DataExtraction-OCR-NER](https://github.com/shaadclt/BusinessCard-DataExtraction-OCR-NER)** [![GitHub stars](https://img.shields.io/github/stars/shaadclt/BusinessCard-DataExtraction-OCR-NER?style=social&color=white)](https://github.com/shaadclt/BusinessCard-DataExtraction-OCR-NER/stargazers) 🧠  
+- **[BusinessCard-DataExtraction-OCR-NER](https://github.com/shaadclt/BusinessCard-DataExtraction-OCR-NER)** [![GitHub_Stars](https://img.shields.io/github/stars/shaadclt/BusinessCard-DataExtraction-OCR-NER?style=social&color=white)](https://github.com/shaadclt/BusinessCard-DataExtraction-OCR-NER/stargazers) 🧠  
   Structured entity extraction pipeline combining OpenCV image preprocessing, PyTesseract OCR, and spaCy Named Entity Recognition (NER).
 
-- **[Meishi](https://github.com/mundanelunacy/meishi)** [![GitHub stars](https://img.shields.io/github/stars/mundanelunacy/meishi?style=social&color=white)](https://github.com/mundanelunacy/meishi/stargazers) 🤖  
+- **[Meishi](https://github.com/mundanelunacy/meishi)** [![GitHub_Stars](https://img.shields.io/github/stars/mundanelunacy/meishi?style=social&color=white)](https://github.com/mundanelunacy/meishi/stargazers) 🤖  
   TypeScript/React PWA for business card scanning using bring-your-own LLM API key (OpenAI, Anthropic, Google Gemini); captures card images, extracts structured contacts via LLM, provides editable review UI, exports `.vcf`, and syncs to Google Contacts.
 
-- **[bizscan](https://github.com/pratikpaudel/bizscan)** [![GitHub stars](https://img.shields.io/github/stars/pratikpaudel/bizscan?style=social&color=white)](https://github.com/pratikpaudel/bizscan/stargazers) 🎯  
+- **[bizscan](https://github.com/pratikpaudel/bizscan)** [![GitHub_Stars](https://img.shields.io/github/stars/pratikpaudel/bizscan?style=social&color=white)](https://github.com/pratikpaudel/bizscan/stargazers) 🎯  
   Python/Streamlit business card scanner using EasyOCR for text extraction and OpenCV for image bounding box visualization with Supabase backend storage.
 
 ---
 
 ### 📱 Mobile SDKs & Core OCR Engines
 
-- **[Tesseract OCR](https://github.com/tesseract-ocr/tesseract)** [![GitHub stars](https://img.shields.io/github/stars/tesseract-ocr/tesseract?style=social&color=white)](https://github.com/tesseract-ocr/tesseract/stargazers) — The foundational open-source neural net OCR engine supporting 100+ languages. 📖
-- **[EasyOCR](https://github.com/JaidedAI/EasyOCR)** [![GitHub stars](https://img.shields.io/github/stars/JaidedAI/EasyOCR?style=social&color=white)](https://github.com/JaidedAI/EasyOCR/stargazers) — Ready-to-use Python OCR library supporting 80+ languages with deep learning detection & recognition. ⚡
+- **[Tesseract OCR](https://github.com/tesseract-ocr/tesseract)** [![GitHub_Stars](https://img.shields.io/github/stars/tesseract-ocr/tesseract?style=social&color=white)](https://github.com/tesseract-ocr/tesseract/stargazers) — The foundational open-source neural net OCR engine supporting 100+ languages. 📖
+- **[EasyOCR](https://github.com/JaidedAI/EasyOCR)** [![GitHub_Stars](https://img.shields.io/github/stars/JaidedAI/EasyOCR?style=social&color=white)](https://github.com/JaidedAI/EasyOCR/stargazers) — Ready-to-use Python OCR library supporting 80+ languages with deep learning detection & recognition. ⚡
 - **[business_card_scanner (Flutter Plugin)](https://pub.dev/packages/business_card_scanner)** — Flutter package for offline business card scanning using Google ML Kit on-device text recognition. 🐦
 - **[advanced_business_card_reader (Flutter Plugin)](https://pub.dev/packages/advanced_business_card_reader)** — Flutter plugin with native OCR (Google ML Kit on Android, Apple Vision on iOS), entity extraction, and double-sided card support. 📱
 - **[Google ML Kit Text Recognition](https://developers.google.com/ml-kit/vision/text-recognition)** — On-device OCR SDK for Android/iOS with zero cloud latency and privacy guarantees. 🛡️
