@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#070a12" />
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="scanBeamGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(56, 189, 248, 0)" />
+      <stop offset="50%" stop-color="rgba(56, 189, 248, 0.45)" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <!-- Glowing Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.04)" stroke-width="1" />
+    </pattern>
+
+    <style>
+      @keyframes scanMotion {
+        0%, 100% { transform: translateY(0); opacity: 0.8; }
+        50% { transform: translateY(120px); opacity: 1; }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.3; transform: scale(1); }
+        50% { opacity: 0.6; transform: scale(1.08); }
+      }
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-8px); }
+      }
+      @keyframes floatReverse {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(8px); }
+      }
+      @keyframes waveDash {
+        to { stroke-dashoffset: -40; }
+      }
+      .scanner-beam {
+        animation: scanMotion 4s ease-in-out infinite;
+      }
+      .glowing-orb {
+        animation: pulseGlow 6s ease-in-out infinite;
+        transform-origin: center;
+      }
+      .floating-card {
+        animation: floatSlow 5s ease-in-out infinite;
+      }
+      .floating-pill {
+        animation: floatReverse 4.5s ease-in-out infinite;
+      }
+      .data-stream {
+        stroke-dasharray: 6 6;
+        animation: waveDash 2s linear infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="420" fill="url(#bgGrad)" />
+  <rect width="1200" height="420" fill="url(#grid)" />
+
+  <!-- Animated Ambient Glowing Orbs (Deep Background) -->
+  <circle cx="200" cy="100" r="140" fill="rgba(56, 189, 248, 0.12)" filter="url(#glow)" class="glowing-orb" />
+  <circle cx="1020" cy="300" r="160" fill="rgba(192, 132, 252, 0.12)" filter="url(#glow)" class="glowing-orb" style="animation-delay: -3s;" />
+  <circle cx="920" cy="120" r="120" fill="rgba(129, 140, 248, 0.1)" filter="url(#glow)" class="glowing-orb" style="animation-delay: -1.5s;" />
+
+  <!-- Connecting Data Stream Flow Lines -->
+  <path d="M 580 200 C 680 200, 720 150, 800 150" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.4" class="data-stream" />
+  <path d="M 580 240 C 680 240, 740 280, 800 280" fill="none" stroke="#818cf8" stroke-width="2" opacity="0.4" class="data-stream" />
+
+  <!-- RIGHT SIDE: Dynamic Visual Metaphor - Digital Business Card Scanner -->
+  <g class="floating-card" transform="translate(800, 110)">
+    <!-- Base Card -->
+    <rect x="0" y="0" width="310" height="190" rx="16" fill="url(#cardGrad)" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1.5" filter="url(#softGlow)" />
+    
+    <!-- Microchip / Card Icon -->
+    <rect x="25" y="24" width="32" height="26" rx="5" fill="rgba(56, 189, 248, 0.2)" stroke="#38bdf8" stroke-width="1.5" />
+    <circle cx="41" cy="37" r="4" fill="#38bdf8" />
+    
+    <!-- Card Contact Content Lines -->
+    <text x="70" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">ALEX MORGAN</text>
+    <text x="70" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="500" fill="#94a3b8">VP OF ENGINEERING • TECH CORP</text>
+
+    <!-- Simulated Data Fields -->
+    <rect x="25" y="74" width="180" height="8" rx="4" fill="rgba(255, 255, 255, 0.08)" />
+    <rect x="25" y="92" width="140" height="8" rx="4" fill="rgba(56, 189, 248, 0.25)" />
+    <rect x="25" y="110" width="160" height="8" rx="4" fill="rgba(129, 140, 248, 0.2)" />
+    <rect x="25" y="128" width="110" height="8" rx="4" fill="rgba(255, 255, 255, 0.08)" />
+
+    <!-- QR Code Graphic Mockup -->
+    <g transform="translate(225, 95)">
+      <rect x="0" y="0" width="58" height="58" rx="8" fill="#0f172a" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1" />
+      <rect x="6" y="6" width="16" height="16" fill="#38bdf8" rx="2" />
+      <rect x="36" y="6" width="16" height="16" fill="#818cf8" rx="2" />
+      <rect x="6" y="36" width="16" height="16" fill="#818cf8" rx="2" />
+      <rect x="26" y="26" width="8" height="8" fill="#38bdf8" />
+      <rect x="38" y="38" width="12" height="12" fill="#c084fc" rx="2" />
+    </g>
+
+    <!-- Dynamic Laser Scan Beam -->
+    <g class="scanner-beam">
+      <rect x="0" y="25" width="310" height="24" fill="url(#scanBeamGrad)" opacity="0.6" />
+      <line x1="0" y1="49" x2="310" y2="49" stroke="#38bdf8" stroke-width="2.5" filter="url(#softGlow)" />
+    </g>
+
+    <!-- Verification Badge Tag -->
+    <g transform="translate(195, 22)">
+      <rect x="0" y="0" width="90" height="22" rx="11" fill="rgba(16, 185, 129, 0.15)" stroke="#10b981" stroke-width="1" />
+      <circle cx="12" cy="11" r="3.5" fill="#10b981" />
+      <text x="22" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#34d399">OCR VERIFIED</text>
+    </g>
+  </g>
+
+  <!-- Extracted Entity Floating Tags -->
+  <g class="floating-pill" transform="translate(730, 70)">
+    <rect width="130" height="30" rx="15" fill="#1e293b" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1" filter="url(#softGlow)" />
+    <text x="14" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#38bdf8">⚡ Name &amp; Email</text>
+  </g>
+
+  <g class="floating-pill" transform="translate(1010, 320)">
+    <rect width="130" height="30" rx="15" fill="#1e293b" stroke="rgba(192, 132, 252, 0.4)" stroke-width="1" filter="url(#softGlow)" />
+    <text x="14" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#c084fc">🔄 CRM Sync Ready</text>
+  </g>
+
+  <!-- LEFT SIDE: High-Contrast Foreground Typography -->
+  <g transform="translate(80, 95)">
+    <!-- Category Pill -->
+    <rect x="0" y="0" width="220" height="28" rx="14" fill="rgba(56, 189, 248, 0.1)" stroke="rgba(56, 189, 248, 0.35)" stroke-width="1" />
+    <circle cx="14" cy="14" r="4" fill="#38bdf8" />
+    <text x="26" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#38bdf8" letter-spacing="0.5">CURATED ECOSYSTEM DIRECTORY</text>
+
+    <!-- Main Title (Strictly Foregrounded & Scaled) -->
+    <text x="0" y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="900" fill="url(#titleGrad)" letter-spacing="-0.8">
+      Awesome Business Card
+    </text>
+    <text x="0" y="118" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="900" fill="#ffffff" letter-spacing="-0.8">
+      Scanning &amp; OCR
+    </text>
+
+    <!-- Subtitle / Tagline -->
+    <text x="0" y="158" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15.5" font-weight="400" fill="#94a3b8" letter-spacing="-0.2">
+      Top SaaS Platforms, Open-Source Pipelines &amp; Mobile On-Device SDKs
+    </text>
+    <text x="0" y="182" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="400" fill="#64748b">
+      Automate Contact Digitization • Entity Recognition • CRM Lead Routing
+    </text>
+
+    <!-- Feature Pills -->
+    <g transform="translate(0, 214)">
+      <!-- Pill 1 -->
+      <rect x="0" y="0" width="124" height="26" rx="6" fill="rgba(255, 255, 255, 0.05)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1" />
+      <text x="14" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600" fill="#e2e8f0">📱 Mobile OCR</text>
+
+      <!-- Pill 2 -->
+      <rect x="134" y="0" width="138" height="26" rx="6" fill="rgba(255, 255, 255, 0.05)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1" />
+      <text x="14" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600" fill="#e2e8f0">🤖 LLM Extraction</text>
+
+      <!-- Pill 3 -->
+      <rect x="282" y="0" width="128" height="26" rx="6" fill="rgba(255, 255, 255, 0.05)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1" />
+      <text x="14" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600" fill="#e2e8f0">📊 Lead Capture</text>
+
+      <!-- Pill 4 -->
+      <rect x="420" y="0" width="120" height="26" rx="6" fill="rgba(255, 255, 255, 0.05)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1" />
+      <text x="14" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600" fill="#e2e8f0">🔒 Privacy First</text>
+    </g>
+  </g>
+</svg>
