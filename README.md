@@ -22,35 +22,18 @@ Contributions welcome! Open an PR to add/update entries. Keep descriptions factu
 
 ## SaaS/Hosted Platforms
 
-- **[Zoho Card Scanner](https://www.zoho.com/crm/mobile/card-scanner.html)**  
-  Mobile app that scans business cards in 10+ languages and saves contacts to Zoho CRM, Salesforce, Google Cloud, and other Zoho apps; features augmented reality overlays showing CRM status and smart field filling [citation:1].
-
-- **[CamCard](https://www.camcard.com/)**  
-  AI-powered business card recognition app with 99.99% claimed accuracy, CRM sync (Salesforce, Google, Outlook), voice transcription, and digital business card sharing via QR code and link [citation:2][citation:13].
-
-- **[ABBYY Business Card Reader](https://pdf.abbyy.com/products/mobile/business-card-reader/)**  
-  OCR specialist's card scanner supporting 25 languages, auto-crop and edge detection, Apple Watch companion app, and export to Salesforce, Excel, and vCard; free tier limited to 10 recognitions [citation:3][citation:14].
-
-- **[ScanBizCards](https://www.scanbizcards.com/)**  
-  Versatile card and conference badge scanner with batch scanning, human transcription fallback for difficult cards, email signature capture, and unlimited Salesforce export on Premium plans [citation:4][citation:15].
-
-- **[HubSpot Business Card Scanner](https://www.hubspot.com/)**  
-  Free scanner built into the HubSpot mobile app; AI maps card text to CRM properties with ~98% accuracy using a neural network trained on ~500,000 business cards, directly creating HubSpot contacts .
-
-- **[Haystack](https://thehaystackapp.com/)**  
-  Digital business card platform with unlimited AI card scanning on free plans; Pro tiers add CRM integrations, smart email signatures, and team management for sales organizations [citation:6].
-
-- **[Covve](https://covve.com/)**  
-  Business card and event badge scanner supporting 60+ languages with offline scanning; Pro adds custom fields with CRM mapping and team analytics, Enterprise adds SSO and audit logs [citation:7].
-
-- **[Sansan](https://jp.sansan.com/)**  
-  Japan-market leader in corporate business card management with 99.9% data accuracy through AI + human verification; dedicated scanner processes 100 cards in 5 minutes, with company-wide contact sharing and 11-language support [citation:8].
-
-- **[Popl](https://popl.co/)**  
-  Digital-first networking platform with AI-powered OCR card scanner, NFC tap sharing, customizable lead capture forms, and CRM sync; offline scanning supported with automatic sync when reconnected [citation:10].
-
-- **[Evernote Scannable](https://evernote.com/)**  
-  iOS-only scanning app for documents, receipts, and business cards; auto-crops and enhances images, saves to Evernote or device, though lacks dedicated contact field parsing [citation:9].
+| Product | Description | Starting Pricing | Free Tier / Trial Limits | Company Scale (Revenue / Valuation) |
+| :--- | :--- | :--- | :--- | :--- |
+| **[HubSpot Business Card Scanner](https://www.hubspot.com/)** | Free AI card scanner inside the HubSpot mobile CRM app mapping card text directly into CRM contacts. | Free (Scanner feature); CRM Starter starts at $15/user/month | Free forever: Unlimited card scans; capped by free CRM limits (up to 2 free users, 1M contacts) | ~$21.0B market cap (NYSE: HUBS) / ~$2.2B annual revenue |
+| **[Evernote Scannable](https://evernote.com/)** | iOS scanning app for capturing receipts and business cards directly into Evernote notebooks. | App is free; Evernote Personal starts at $14.99/month ($129.99/year) | Free forever: Unlimited scans, but Evernote free storage caps at 50 total notes, 1 notebook, 1 device | ~$18.4B–$25.0B parent valuation (Bending Spoons) / ~$1.3B parent revenue |
+| **[CamCard](https://www.camcard.com/)** | Enterprise & individual AI business card scanner with OCR recognition, CRM auto-sync, and QR exchange. | CamCard Premium starts at $8.50/month ($46.99/year) | Free forever: Capped at 100 lifetime scans and max 20 cards stored in active digital cardholder | ~$2.8B market cap (INTSIG, SSE: 688615) / ~CN¥1.8B (~$250M) revenue |
+| **[Sansan](https://jp.sansan.com/)** | Enterprise corporate card management platform combining AI OCR with human-verified data correction. | Custom enterprise quote; consumer tier Eight starts at ¥600/month (~$4/month) | Eight app has free forever plan (scan & basic exchange); Sansan enterprise requires sales consultation/demo (no self-serve free trial) | ~$1.6B market cap (TSE: 4443) / ~¥43.2B (~$285M) annual revenue |
+| **[Zoho Card Scanner](https://www.zoho.com/crm/mobile/card-scanner.html)** | Mobile OCR card scanner supporting 10+ languages with direct export to Zoho CRM, Google Contacts, and Salesforce. | Standalone scanner app is free; Zoho CRM Standard starts at $14/user/month (annual) | Free forever: Standalone card scanning is free; Zoho CRM Free Edition caps at 3 users, 5,000 records, 1 GB storage | ~$1.4B+ annual revenue (Zoho Corporation, bootstrapped/profitable) |
+| **[ABBYY Business Card Reader](https://pdf.abbyy.com/products/mobile/business-card-reader/)** | High-precision mobile OCR card reader supporting 25 languages, smart cropping, and multi-format exports. | BCR Premium starts at $7.99/month ($29.99/year or $59.99 lifetime) | 7-day free trial on monthly subscription; Free tier strictly limited to 10 total card recognitions lifetime | ~$45M+ ARR (Marlin Equity Partners private equity portfolio) |
+| **[Popl](https://popl.co/)** | Digital business card & NFC networking ecosystem with AI business card and event badge OCR scanning. | Popl Pro starts at $7.99/month ($6.49/month billed annually) | Free forever: Digital profile creation & sharing; OCR card scanner allows viewing first 5 scanned leads before paywall | ~$12M–$34M estimated annual revenue / YC-backed (~$2.5M funding) |
+| **[ScanBizCards](https://www.scanbizcards.com/)** | Badge and card scanner with OCR and optional human verification fallback for complex layouts. | Sales Ninja plan starts at $100/user/year ($8.33/user/month); Enterprise at $100/user/year | 14-day free trial for Enterprise; Lite/Trail-Blazer free tier allows basic card scans without automated CRM export or team sync | ~$5M estimated revenue / Acquired by CircleBack / Evernote ecosystem |
+| **[Haystack](https://thehaystackapp.com/)** | Digital business card and paper card scanner with unlimited mobile AI OCR extraction. | Haystack Pro starts at $7.95/user/month ($4.50/user/month billed annually) | Free forever: Unlimited digital cards, unlimited shares, and unlimited AI card scans on individual tier (exports & CRM locked) | Seed stage (~$1.7M total venture funding, ~$2M–$3M estimated revenue) |
+| **[Covve](https://covve.com/)** | AI business card scanner and relationship assistant with 60+ language OCR and offline capture. | Covve Essential starts at $12/month ($119/year); Pro at $20/month ($199/year) | 14-day free trial on annual Pro/Essential plans; Free forever tier capped at 20 active relationship contacts | Seed/Growth stage (~$5M total funding, ~$1.6M estimated annual revenue) |
 
 ## Open-Source GitHub Projects
 
